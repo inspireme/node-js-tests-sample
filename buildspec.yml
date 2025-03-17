@@ -20,5 +20,5 @@ phases:
 reports:
   nodejs-report:
     files:
-      - "test.results.xml"
+      - "test-results.xml"
     file-format: "JUNITXML"
