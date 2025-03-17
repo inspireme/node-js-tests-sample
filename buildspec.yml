@@ -16,8 +16,8 @@ phases:
   post_build:
     commands:
       - echo Tests Complete
-  reports:
-    nodejs-report:
-      files:
-        - "test.results.xml"
-      file-format: "JUNITXML"
+reports:
+  nodejs-report:
+    files:
+      - "test.results.xml"
+    file-format: "JUNITXML"
